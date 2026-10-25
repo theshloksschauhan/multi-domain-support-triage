@@ -66,3 +66,7 @@ output/
 *.db-wal
 *.db-shm
 benchmark-results/
+
+# Nested checkout and empty external link
+multi-domain-support-triage/
+.external/
