@@ -60,3 +60,9 @@ output/
 # Misc
 *.tmp
 *.swp
+
+# Shard databases and generated cluster files
+*.db
+*.db-wal
+*.db-shm
+benchmark-results/

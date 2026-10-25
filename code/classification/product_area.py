@@ -26,9 +26,13 @@ def infer_company(issue: str, subject: str, company: str) -> str:
     if normalized != "None":
         return normalized
     text = f"{subject} {issue}".lower()
-    for name, keywords in COMPANY_KEYWORDS.items():
-        if any(k in text for k in keywords):
-            return name
+    matches = [
+        name
+        for name, keywords in COMPANY_KEYWORDS.items()
+        if any(keyword in text for keyword in keywords)
+    ]
+    if len(matches) == 1:
+        return matches[0]
     return "None"
 
 

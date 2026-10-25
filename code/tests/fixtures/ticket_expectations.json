@@ -1,0 +1,50 @@
+[
+  {
+    "subject": "Why are my mock interviews not working",
+    "status": "escalated",
+    "justification_contains": "does not address the requested action",
+    "response_excludes": "Previous Mock Interviews"
+  },
+  {
+    "subject": "I need to practice, submissions not working",
+    "status": "escalated",
+    "justification_contains": "does not address the requested action",
+    "response_excludes": "token"
+  },
+  {
+    "subject": "Employee leaving the company",
+    "status": "escalated",
+    "justification_contains": "does not address the requested action",
+    "response_excludes": "invitation consumes"
+  },
+  {
+    "subject": "Dispute charge",
+    "status": "replied",
+    "response_contains": "issuer"
+  },
+  {
+    "subject": "Website Data crawl",
+    "status": "replied",
+    "response_contains": "crawl"
+  },
+  {
+    "subject": "Subscription pause",
+    "status": "replied",
+    "response_contains": "Pause"
+  },
+  {
+    "subject": "Claude for students",
+    "status": "replied",
+    "response_contains": "LTI"
+  },
+  {
+    "subject": "Personal Data Use",
+    "status": "replied",
+    "response_contains": "data"
+  },
+  {
+    "subject": "Visa card minimum spend",
+    "status": "replied",
+    "response_contains": "minimum"
+  }
+]

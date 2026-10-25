@@ -1,0 +1,35 @@
+{
+  "build_limit_seconds": 60.0,
+  "byte_limit": 400000000,
+  "real_corpus": {
+    "term_freq": {
+      "layout": "term_freq",
+      "build_seconds": 2.275,
+      "db_bytes": 22818816,
+      "query_p95_ms": 100.342
+    },
+    "postings": {
+      "layout": "postings",
+      "build_seconds": 15.194,
+      "db_bytes": 109817856,
+      "query_p95_ms": 420.964
+    },
+    "winner": "term_freq"
+  },
+  "synthetic_corpus": {
+    "documents": 200000,
+    "term_freq": {
+      "layout": "term_freq",
+      "build_seconds": 12.525,
+      "db_bytes": 35913728,
+      "query_p95_ms": 1267.412
+    },
+    "postings": {
+      "layout": "postings",
+      "build_seconds": 8.104,
+      "db_bytes": 87539712,
+      "query_p95_ms": 7045.633
+    }
+  },
+  "shipped_layout": "term_freq"
+}

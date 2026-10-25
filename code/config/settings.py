@@ -1,6 +1,7 @@
 import os
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Optional
 
 
 # Challenge schema values (lowercase)
@@ -22,6 +23,14 @@ MIN_OVERLAP = 0.08
 TOP_K = 5
 MAX_SENTENCES = 4
 
+# Search backends. "local" is the in-process BM25 baseline. "distributed" is
+# selected through the same interface and must not silently run local search.
+DEFAULT_SEARCH_MODE = "local"
+DISTRIBUTED_SEARCH_MODE = "distributed"
+SEARCH_MODES = (DEFAULT_SEARCH_MODE, DISTRIBUTED_SEARCH_MODE)
+DEFAULT_SHARD_TIMEOUT = 5.0
+DEFAULT_SHARD_RETRIES = 1
+DEFAULT_BODY_LIMIT = 32 * 1024 * 1024
 
 def repo_root() -> Path:
     return Path(__file__).resolve().parents[2]
@@ -43,6 +52,11 @@ class RuntimeConfig:
     min_overlap: float
     top_k: int
     max_sentences: int
+    search_mode: str = DEFAULT_SEARCH_MODE
+    shard_config_path: Optional[Path] = None
+    diagnostics_path: Optional[Path] = None
+    shard_timeout_seconds: float = DEFAULT_SHARD_TIMEOUT
+    shard_retries: int = DEFAULT_SHARD_RETRIES
 
 
 def default_config() -> RuntimeConfig:
@@ -57,4 +71,9 @@ def default_config() -> RuntimeConfig:
         min_overlap=MIN_OVERLAP,
         top_k=TOP_K,
         max_sentences=MAX_SENTENCES,
+        search_mode=DEFAULT_SEARCH_MODE,
+        shard_config_path=None,
+        diagnostics_path=None,
+        shard_timeout_seconds=DEFAULT_SHARD_TIMEOUT,
+        shard_retries=DEFAULT_SHARD_RETRIES,
     )

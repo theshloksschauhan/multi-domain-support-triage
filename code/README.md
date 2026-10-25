@@ -1,17 +1,17 @@
 # Multi-domain support triage agent
 
-Deterministic, corpus-grounded ticket triage for the HackerRank Orchestrate challenge. The agent indexes local Markdown support articles with BM25, applies conservative risk rules, classifies request types, and either replies using extracted sentences or escalates.
+Deterministic, corpus-grounded ticket triage for HackerRank, Claude, and Visa. The agent indexes local Markdown support articles with BM25, applies conservative risk rules, classifies request types, and either replies using extracted sentences or escalates.
 
 ## Layout
 
 - `config/settings.py` — paths, thresholds (`MIN_SCORE`, `MIN_OVERLAP`, `TOP_K`), deterministic defaults.
 - `data_loader/` — CSV tickets and corpus chunks (with YAML breadcrumbs when present).
-- `retrieval/` — BM25 index + overlap-filtered retrieval; company-aware filtering when `Company` is set.
+- `retrieval/` — full-scan `BM25Index` (default local mode) and `InvertedIndex` (used by each shard). Scoring, filters, and ordering match. `cluster.py` starts the localhost shard processes.
 - `classification/` — request type, risk phrases, product-area fallbacks.
 - `routing/decision_engine.py` — replied vs escalated from risk + retrieval scores.
 - `generation/` — snippet extraction and short justifications.
 - `output/writer.py` — CSV with columns  
-  `status,product_area,response,justification,request_type` (challenge schema).
+  `status,product_area,response,justification,request_type`.
 - `pipeline/run_pipeline.py` — end-to-end orchestration and structured logging.
 
 ## Dependencies
@@ -30,19 +30,33 @@ python code/main.py \
   --log support_tickets/log.txt
 ```
 
-Optional flags: `--min-score`, `--min-overlap`, `--top-k`, `--max-sentences`.
+Optional flags: `--min-score`, `--min-overlap`, `--top-k`, `--max-sentences`, `--search-mode`.
+
+`--search-mode` defaults to `local`, which is the in-process full-scan BM25 search. `distributed` queries the shard cluster from `--shard-config` and does not fall back to local search. Optional `--diagnostics` writes JSONL. Shard commands:
+
+```bash
+python code/cluster.py start --shard-config code/config/shards.local.json
+python code/cluster.py index --shard-config code/config/shards.local.json --corpus data
+python code/cluster.py health --shard-config code/config/shards.local.json
+python code/cluster.py stop --shard-config code/config/shards.local.json
+```
 
 The script directory is on `sys.path`, so imports resolve without extra `PYTHONPATH`.
+
+## Tests
+
+From the repository root:
+
+```bash
+python code/run_tests.py
+```
+
+`python code/tests/sanity_tests.py` still runs the original sanity assertions.
 
 ## Outputs
 
 - **Predictions CSV** — exactly five columns, lowercase `status` (`replied` / `escalated`), allowed `request_type` values.
 - **log.txt** — per-ticket retrieval score, optional risk reason, top chunk id, issue preview.
-
-## Submission packaging
-
-1. Zip **only** the `code/` directory (exclude `data/`, `support_tickets/`, virtualenvs, caches).
-2. Attach generated `output.csv` and `log.txt` as required by the challenge.
 
 ## Assumptions
 

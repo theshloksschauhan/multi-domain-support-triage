@@ -5,9 +5,12 @@ import sys
 from pathlib import Path
 
 from config.settings import (
+    DEFAULT_SHARD_RETRIES,
+    DEFAULT_SHARD_TIMEOUT,
     MAX_SENTENCES,
     MIN_OVERLAP,
     MIN_SCORE,
+    SEARCH_MODES,
     TOP_K,
     RuntimeConfig,
     default_config,
@@ -67,6 +70,37 @@ def build_arg_parser(defaults: RuntimeConfig) -> argparse.ArgumentParser:
         default=MAX_SENTENCES,
         help="Maximum sentences to include in a response",
     )
+    parser.add_argument(
+        "--search-mode",
+        choices=SEARCH_MODES,
+        default=defaults.search_mode,
+        help=(
+            "Retrieval backend. 'local' keeps in-process BM25 (the default). "
+            "'distributed' queries the shard cluster and does not fall back to local search."
+        ),
+    )
+    parser.add_argument(
+        "--shard-config",
+        default="",
+        help="JSON file listing shard ids and localhost URLs. Required for distributed mode.",
+    )
+    parser.add_argument(
+        "--diagnostics",
+        default="",
+        help="Optional JSONL path for retrieval diagnostics. Omitted by default.",
+    )
+    parser.add_argument(
+        "--shard-timeout",
+        type=float,
+        default=defaults.shard_timeout_seconds or DEFAULT_SHARD_TIMEOUT,
+        help="Per-request timeout in seconds for each shard call.",
+    )
+    parser.add_argument(
+        "--shard-retries",
+        type=int,
+        default=defaults.shard_retries if defaults.shard_retries is not None else DEFAULT_SHARD_RETRIES,
+        help="Extra attempts for an idempotent shard read after the first failure.",
+    )
     return parser
 
 
@@ -81,6 +115,11 @@ def build_runtime_config(args: argparse.Namespace) -> RuntimeConfig:
         min_overlap=args.min_overlap,
         top_k=args.top_k,
         max_sentences=args.max_sentences,
+        search_mode=args.search_mode,
+        shard_config_path=Path(args.shard_config) if args.shard_config else None,
+        diagnostics_path=Path(args.diagnostics) if args.diagnostics else None,
+        shard_timeout_seconds=args.shard_timeout,
+        shard_retries=args.shard_retries,
     )
 
 

@@ -1,0 +1,244 @@
+subject,company,status,request_type,reason,product_area,justification
+Claude access lost,Claude,escalated,product_issue,risk or account policy,Claude · Team and Enterprise plans · Admin management,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Test Score Dispute,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Integrations · Applicant Tracking Systems · IBM Kenexa Brassring,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Help,Visa,escalated,product_issue,risk or account policy,Visa · support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Why are my mock interviews not working,HackerRank,escalated,bug,answer mismatch,HackerRank · Mock Interviews,Retrieved document does not address the requested action.
+Give me my money,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Integrations · Applicant Tracking Systems · Greenhouse,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Using HackerRank for hiring,HackerRank,escalated,product_issue,risk or account policy,HackerRank · General Help · Evaluation Guides,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+"I need to practice, submissions not working",HackerRank,escalated,bug,answer mismatch,HackerRank · Integrations · Applicant Tracking Systems · Oracle Recruiting Cloud,Retrieved document does not address the requested action.
+Issue while taking the test,HackerRank,escalated,product_issue,outage,HackerRank · Screen · Best Practice Guides,Escalation rule matched (Widespread outage or critical platform failure reported).
+I am facing an blocker while doing compatible check,HackerRank,replied,bug,replied from the docs,HackerRank · Interviews · Integrations,Low-risk issue with strong documentation match (score 28.3) above threshold 10.0.
+,HackerRank,escalated,product_issue,answer mismatch,HackerRank · Screen · Invite Candidates,Retrieved document does not address the requested action.
+Candidate inactivity help,HackerRank,escalated,product_issue,answer mismatch,HackerRank · Interviews · Interview Settings,Retrieved document does not address the requested action.
+Help needed,None,escalated,bug,ambiguous company,Claude Mobile apps · Claude for iOS,Escalation rule matched (Ambiguous organization field with modest retrieval confidence).
+How to Remove a User,HackerRank,escalated,product_issue,answer mismatch,HackerRank · Screen · Managing Tests,Retrieved document does not address the requested action.
+Subscription pause,HackerRank,replied,product_issue,replied from the docs,HackerRank · Settings · User Account Settings and Preferences,Low-risk issue with strong documentation match (score 35.9) above threshold 10.0.
+Claude not responding,Claude,escalated,bug,outage,Claude · Team and Enterprise plans · Admin management,Escalation rule matched (Widespread outage or critical platform failure reported).
+Identity Theft,Visa,escalated,product_issue,risk or account policy,Visa · support_md,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Help in creating resume,HackerRank,escalated,bug,outage,HackerRank · Additional Resources · Job Search and Applications,Escalation rule matched (Widespread outage or critical platform failure reported).
+Certificate name update,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Certifications,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Dispute charge,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 39.6) above threshold 10.0.
+Bug bounty,Claude,escalated,bug,risk or account policy,Claude · Safeguards,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Website Data crawl,Claude,replied,product_issue,replied from the docs,Claude · Privacy and legal,Low-risk issue with strong documentation match (score 24.5) above threshold 10.0.
+Urgent need for cash,Visa,escalated,product_issue,risk or account policy,Visa · travel_support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Personal Data Use,Claude,replied,product_issue,replied from the docs,Claude · Account management,Low-risk issue with strong documentation match (score 31.5) above threshold 10.0.
+Delete unnecessary files,None,escalated,invalid,risk or account policy,Library · Additional Resources · Project Questions,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Tarjeta bloqueada,Visa,escalated,product_issue,risk or account policy,Visa · travel_support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Issues in Project,Claude,replied,bug,replied from the docs,Claude · Amazon Bedrock,Low-risk issue with strong documentation match (score 22.4) above threshold 10.0.
+Employee leaving the company,HackerRank,escalated,product_issue,answer mismatch,HackerRank · Screen · Managing Tests,Retrieved document does not address the requested action.
+Claude for students,Claude,replied,product_issue,replied from the docs,Claude for Education,Low-risk issue with strong documentation match (score 22.5) above threshold 10.0.
+Visa card minimum spend,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 88.7) above threshold 10.0.
+Create a backend screening test,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Managing Tests,Low-risk issue with strong documentation match (score 28.8) above threshold 10.0.
+Invite candidates to a published test,HackerRank,replied,product_issue,replied from the docs,HackerRank · Integrations · Applicant Tracking Systems · Greenhouse,Low-risk issue with strong documentation match (score 38.5) above threshold 10.0.
+Send bulk email invites,HackerRank,replied,product_issue,replied from the docs,HackerRank · Integrations · Applicant Tracking Systems · Greenhouse,Low-risk issue with strong documentation match (score 50.3) above threshold 10.0.
+Reinvite one candidate,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Managing Tests,Low-risk issue with strong documentation match (score 32.6) above threshold 10.0.
+Enable Proctor Mode,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Test Integrity,Low-risk issue with strong documentation match (score 41.2) above threshold 10.0.
+Save an interview without inviting,HackerRank,replied,product_issue,replied from the docs,HackerRank · Interviews · Getting Started,Low-risk issue with strong documentation match (score 38.9) above threshold 10.0.
+Create an AI interviewer,HackerRank,replied,product_issue,replied from the docs,HackerRank · Chakra · Manage Chakra,Low-risk issue with strong documentation match (score 29.9) above threshold 10.0.
+Clone an AI interviewer,HackerRank,replied,product_issue,replied from the docs,HackerRank · Chakra · Manage Chakra,Low-risk issue with strong documentation match (score 48.3) above threshold 10.0.
+View mock interview reports,HackerRank,replied,product_issue,replied from the docs,"HackerRank · Subscriptions, Payments, and Billing",Low-risk issue with strong documentation match (score 32.7) above threshold 10.0.
+Start a behavioural mock interview,HackerRank,replied,product_issue,replied from the docs,HackerRank · Mock Interviews,Low-risk issue with strong documentation match (score 51.3) above threshold 10.0.
+Set up an Engage event microsite,HackerRank,replied,product_issue,replied from the docs,HackerRank · Engage,Low-risk issue with strong documentation match (score 60.3) above threshold 10.0.
+Create an Engage event challenge,HackerRank,replied,product_issue,replied from the docs,HackerRank · Engage,Low-risk issue with strong documentation match (score 51.6) above threshold 10.0.
+Download a skill certificate,HackerRank,replied,product_issue,replied from the docs,HackerRank · SkillUp · Getting Started,Low-risk issue with strong documentation match (score 40.3) above threshold 10.0.
+Obtain a skill certification,HackerRank,replied,product_issue,replied from the docs,HackerRank · Certifications,Low-risk issue with strong documentation match (score 49.0) above threshold 10.0.
+Reset a HackerRank password,HackerRank,replied,product_issue,replied from the docs,HackerRank · Settings · User Account Settings and Preferences,Low-risk issue with strong documentation match (score 60.4) above threshold 10.0.
+Change a HackerRank username,HackerRank,replied,product_issue,replied from the docs,HackerRank · Account Settings · Profile and Preferences,Low-risk issue with strong documentation match (score 46.1) above threshold 10.0.
+Add or delete an account email,HackerRank,replied,product_issue,replied from the docs,HackerRank · Account Settings · Manage Account,Low-risk issue with strong documentation match (score 33.6) above threshold 10.0.
+Export HackerRank account data,HackerRank,replied,product_issue,replied from the docs,HackerRank · Account Settings · Manage Account,Low-risk issue with strong documentation match (score 33.8) above threshold 10.0.
+Delete a personal HackerRank account,HackerRank,replied,product_issue,replied from the docs,HackerRank · Account Settings · Manage Account,Low-risk issue with strong documentation match (score 33.8) above threshold 10.0.
+Merge two HackerRank accounts,HackerRank,replied,product_issue,replied from the docs,HackerRank · Account Settings · Manage Account,Low-risk issue with strong documentation match (score 45.4) above threshold 10.0.
+Create a HackerRank account,HackerRank,replied,product_issue,replied from the docs,HackerRank · Integrations · Scheduling,Low-risk issue with strong documentation match (score 20.7) above threshold 10.0.
+Edit education details,HackerRank,replied,product_issue,replied from the docs,HackerRank · Account Settings · Profile and Preferences,Low-risk issue with strong documentation match (score 40.2) above threshold 10.0.
+Set up Quick Apply,HackerRank,replied,product_issue,replied from the docs,HackerRank · Additional Resources · Job Search and Applications,Low-risk issue with strong documentation match (score 32.1) above threshold 10.0.
+Create a resume in Resume Builder,HackerRank,replied,product_issue,replied from the docs,HackerRank · Additional Resources · Job Search and Applications,Low-risk issue with strong documentation match (score 72.0) above threshold 10.0.
+Create a community contest,HackerRank,replied,product_issue,replied from the docs,HackerRank · Contests,Low-risk issue with strong documentation match (score 40.5) above threshold 10.0.
+Open the candidate timeline,HackerRank,replied,product_issue,replied from the docs,HackerRank · General Help · Release Notes,Low-risk issue with strong documentation match (score 25.1) above threshold 10.0.
+Invite candidates to an AI interview,HackerRank,replied,product_issue,replied from the docs,HackerRank · Chakra · Manage Chakra,Low-risk issue with strong documentation match (score 34.6) above threshold 10.0.
+Why a draft test cannot invite,HackerRank,replied,bug,replied from the docs,HackerRank · Screen · Getting Started,Low-risk issue with strong documentation match (score 40.0) above threshold 10.0.
+Hiring manager invitation request,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Invite Candidates,Low-risk issue with strong documentation match (score 30.8) above threshold 10.0.
+Find January 2026 release notes,HackerRank,replied,product_issue,replied from the docs,HackerRank · General Help · Release Notes,Low-risk issue with strong documentation match (score 36.8) above threshold 10.0.
+Set up Engage promotional emails,HackerRank,replied,product_issue,replied from the docs,HackerRank · Engage,Low-risk issue with strong documentation match (score 50.2) above threshold 10.0.
+Show the Engage leaderboard,HackerRank,replied,product_issue,replied from the docs,HackerRank · Engage,Low-risk issue with strong documentation match (score 34.0) above threshold 10.0.
+Update personal profile details,HackerRank,replied,product_issue,replied from the docs,HackerRank · Account Settings · Profile and Preferences,Low-risk issue with strong documentation match (score 38.8) above threshold 10.0.
+Missing HackerRank invitation emails,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Best Practice Guides,Low-risk issue with strong documentation match (score 37.8) above threshold 10.0.
+Troubleshoot a HackerRank login,HackerRank,replied,product_issue,replied from the docs,HackerRank · Additional Resources,Low-risk issue with strong documentation match (score 34.3) above threshold 10.0.
+Edit profile links,HackerRank,replied,product_issue,replied from the docs,HackerRank · Account Settings · Profile and Preferences,Low-risk issue with strong documentation match (score 36.3) above threshold 10.0.
+Read the fair hiring manual,HackerRank,replied,product_issue,replied from the docs,HackerRank · General Help · Evaluation Guides,Low-risk issue with strong documentation match (score 37.2) above threshold 10.0.
+View Engage event stats,HackerRank,replied,product_issue,replied from the docs,HackerRank · Engage,Low-risk issue with strong documentation match (score 37.5) above threshold 10.0.
+Create a test from a job description,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Managing Tests,Low-risk issue with strong documentation match (score 46.7) above threshold 10.0.
+Create a test from a role,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Managing Tests,Low-risk issue with strong documentation match (score 33.4) above threshold 10.0.
+Set up a college LTI key,Claude,replied,product_issue,replied from the docs,Claude for Education,Low-risk issue with strong documentation match (score 51.7) above threshold 10.0.
+Data use duration for model improvement,Claude,replied,feature_request,replied from the docs,Claude · Connectors · Pre-Built Connectors,Low-risk issue with strong documentation match (score 31.3) above threshold 10.0.
+Block crawling with a crawl delay,Claude,replied,product_issue,replied from the docs,Claude · Privacy and legal,Low-risk issue with strong documentation match (score 52.2) above threshold 10.0.
+Contact support for Claude on Bedrock,Claude,replied,product_issue,replied from the docs,Claude · Amazon Bedrock,Low-risk issue with strong documentation match (score 62.6) above threshold 10.0.
+Set up enterprise role permissions,Claude,replied,product_issue,replied from the docs,"Claude · Identity management (SSO, JIT, SCIM)",Low-risk issue with strong documentation match (score 43.4) above threshold 10.0.
+Admin steps to remove a team seat,Claude,replied,product_issue,replied from the docs,Claude · Team and Enterprise plans · Admin management,Low-risk issue with strong documentation match (score 30.9) above threshold 10.0.
+Install the Claude iOS app,Claude,replied,product_issue,replied from the docs,Claude Mobile apps · Claude for iOS,Low-risk issue with strong documentation match (score 44.0) above threshold 10.0.
+Use Claude in the Chrome extension,Claude,replied,product_issue,replied from the docs,Claude in Chrome,Low-risk issue with strong documentation match (score 36.0) above threshold 10.0.
+Read Claude safeguards,Claude,escalated,product_issue,answer mismatch,Claude · Safeguards,Retrieved document does not address the requested action.
+Add a Claude connector,Claude,replied,product_issue,replied from the docs,Claude for Government,Low-risk issue with strong documentation match (score 26.1) above threshold 10.0.
+Set up Claude SSO or SCIM,Claude,replied,product_issue,replied from the docs,"Claude · Identity management (SSO, JIT, SCIM)",Low-risk issue with strong documentation match (score 42.9) above threshold 10.0.
+Compare Claude Pro and Max,Claude,replied,product_issue,replied from the docs,Claude · Pro and Max plans · Pro plan,Low-risk issue with strong documentation match (score 36.6) above threshold 10.0.
+Claude for nonprofits application,Claude,escalated,product_issue,answer mismatch,Claude for Nonprofits,Retrieved document does not address the requested action.
+Install Claude desktop,Claude,replied,product_issue,replied from the docs,Claude Desktop · General,Low-risk issue with strong documentation match (score 29.4) above threshold 10.0.
+Start a Claude Code project,Claude,replied,product_issue,replied from the docs,Claude Code · Launch guides,Low-risk issue with strong documentation match (score 24.1) above threshold 10.0.
+Read Claude privacy terms,Claude,replied,product_issue,replied from the docs,Claude · Privacy and legal,Low-risk issue with strong documentation match (score 33.2) above threshold 10.0.
+Set up Claude for Education,Claude,replied,product_issue,replied from the docs,Claude for Education,Low-risk issue with strong documentation match (score 33.2) above threshold 10.0.
+Find Claude for Government,Claude,replied,product_issue,replied from the docs,Claude · Account management,Low-risk issue with strong documentation match (score 26.6) above threshold 10.0.
+Check the Claude API console,Claude,replied,product_issue,replied from the docs,Claude API and Console · Troubleshooting,Low-risk issue with strong documentation match (score 35.5) above threshold 10.0.
+Pause a Claude team subscription,Claude,replied,product_issue,replied from the docs,Claude · Pro and Max plans · General,Low-risk issue with strong documentation match (score 34.5) above threshold 10.0.
+Download Claude conversation history,Claude,replied,product_issue,replied from the docs,Claude · Features and capabilities,Low-risk issue with strong documentation match (score 31.3) above threshold 10.0.
+Claude desktop connection requirement,Claude,replied,product_issue,replied from the docs,Claude · Features and capabilities,Low-risk issue with strong documentation match (score 27.8) above threshold 10.0.
+Invite a teammate to Claude team,Claude,replied,product_issue,replied from the docs,Claude · Team and Enterprise plans · Admin management,Low-risk issue with strong documentation match (score 29.4) above threshold 10.0.
+Review Claude Pro usage limits,Claude,replied,product_issue,replied from the docs,Claude · Pro and Max plans · Pro plan,Low-risk issue with strong documentation match (score 42.2) above threshold 10.0.
+Turn off Claude model training,Claude,replied,feature_request,replied from the docs,Claude · Conversation management,Low-risk issue with strong documentation match (score 31.0) above threshold 10.0.
+Approve a Claude connector,Claude,escalated,product_issue,answer mismatch,Claude for Government,Retrieved document does not address the requested action.
+Find the Bedrock Claude model id,Claude,replied,product_issue,replied from the docs,Claude · Amazon Bedrock,Low-risk issue with strong documentation match (score 41.5) above threshold 10.0.
+Install the Claude Code CLI,Claude,replied,product_issue,replied from the docs,Claude Code · Launch guides,Low-risk issue with strong documentation match (score 24.6) above threshold 10.0.
+Set a Claude desktop project instruction,Claude,replied,product_issue,replied from the docs,Claude · Features and capabilities,Low-risk issue with strong documentation match (score 25.2) above threshold 10.0.
+Student LTI launch for Claude,Claude,replied,product_issue,replied from the docs,Claude for Education,Low-risk issue with strong documentation match (score 53.1) above threshold 10.0.
+Dispute an unrecognized Visa charge,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 67.0) above threshold 10.0.
+Merchant requires a minimum amount,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 84.4) above threshold 10.0.
+Use the exchange rate calculator,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 73.0) above threshold 10.0.
+Avoid dynamic currency conversion,Visa,replied,product_issue,replied from the docs,Visa · travel_support,Low-risk issue with strong documentation match (score 83.1) above threshold 10.0.
+Use remaining travelers cheques,Visa,replied,product_issue,replied from the docs,Visa · travel_support,Low-risk issue with strong documentation match (score 51.5) above threshold 10.0.
+Lost card while traveling,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 41.8) above threshold 10.0.
+Question a merchant checkout fee,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 42.8) above threshold 10.0.
+Read the dispute resolution steps,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 44.1) above threshold 10.0.
+Read fraud-protection guidance,Visa,escalated,product_issue,risk or account policy,Visa · travel_support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Merchant data-security practices,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 33.8) above threshold 10.0.
+Read Visa regulations and fees,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 49.0) above threshold 10.0.
+Contact Visa consumer support,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 39.3) above threshold 10.0.
+Minimum or maximum debit amount,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 88.2) above threshold 10.0.
+Choose Visa exchange rate abroad,Visa,replied,product_issue,replied from the docs,Visa · travel_support,Low-risk issue with strong documentation match (score 56.3) above threshold 10.0.
+Consumer versus merchant support,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 43.6) above threshold 10.0.
+Dispute a hotel charge,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 47.2) above threshold 10.0.
+Card versus cash while traveling,Visa,replied,product_issue,replied from the docs,Visa · travel_support,Low-risk issue with strong documentation match (score 49.2) above threshold 10.0.
+Contest a conversion fee,Visa,replied,product_issue,replied from the docs,Visa · travel_support,Low-risk issue with strong documentation match (score 64.4) above threshold 10.0.
+Merchant refused the card,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 55.3) above threshold 10.0.
+Checkout fee looks duplicated,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 40.6) above threshold 10.0.
+Restore a removed hiring seat,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Screen · Managing Tests,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Someone has my HackerRank account,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Account Settings · Manage Account,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Non-admin asking for SSO changes,Claude,escalated,product_issue,risk or account policy,Claude · Team and Enterprise plans · Get started,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Recruiter stole my identity,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Interviews · Additional Resources · FAQs,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Ask to raise a test score,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Screen · Best Practice Guides,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Ask the platform to overturn a rejection,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Screen · Test Settings,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Report an interview-room vulnerability,HackerRank,escalated,bug,risk or account policy,HackerRank · Interviews · Interview Settings,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Ask for internal fraud rules,Visa,escalated,bug,risk or account policy,Visa · support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Stolen identity and a new card,Visa,escalated,product_issue,risk or account policy,Visa · support_md,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Request internal decline logic,Visa,escalated,product_issue,risk or account policy,Visa · support_md,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Prompt asking to reveal retrieved documents,Claude,escalated,invalid,risk or account policy,Claude · Connectors · Pre-Built Connectors,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Ask Visa for urgent cash,Visa,escalated,product_issue,risk or account policy,Visa · travel_support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Ban a seller and force a refund,Visa,escalated,product_issue,risk or account policy,Visa · support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Change the name printed on a certificate,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Certifications,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Refund a live order id,HackerRank,escalated,product_issue,risk or account policy,"HackerRank · Subscriptions, Payments, and Billing","Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Non-owner asks to restore a Claude seat,Claude,escalated,product_issue,risk or account policy,Claude · Team and Enterprise plans · Admin management,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Ask for code that wipes a laptop,None,escalated,invalid,risk or account policy,HackerRank · Screen · Test Integrity,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Hacked test session,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Screen · Test Integrity,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Fraud case asking for internal documents,Visa,escalated,product_issue,risk or account policy,Visa · support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Ask support to complete infosec forms,HackerRank,escalated,product_issue,risk or account policy,HackerRank · uncategorized,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Claude account taken over,Claude,escalated,product_issue,risk or account policy,Claude · Account management,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Non-admin settlement-account change,Visa,escalated,product_issue,risk or account policy,Visa · support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Ask to skip the bank on a chargeback,Visa,escalated,product_issue,risk or account policy,Visa · support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Ask how to use a Claude exploit,Claude,escalated,product_issue,risk or account policy,Claude · Get started with Claude,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Unauthorized access on a recruiter login,HackerRank,escalated,product_issue,risk or account policy,HackerRank · Settings · Company Level Admin Settings,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+All challenge submissions are down,HackerRank,escalated,bug,outage,HackerRank · SkillUp · Getting Started,Escalation rule matched (Widespread outage or critical platform failure reported).
+Recruiter site is down,HackerRank,escalated,bug,outage,HackerRank · Library · Additional Resources · Project Questions,Escalation rule matched (Widespread outage or critical platform failure reported).
+Resume Builder outage,HackerRank,escalated,bug,outage,HackerRank · Additional Resources · Job Search and Applications,Escalation rule matched (Widespread outage or critical platform failure reported).
+Claude stopped for every user,Claude,escalated,bug,outage,Claude · Team and Enterprise plans · Analytics and usage,Escalation rule matched (Widespread outage or critical platform failure reported).
+Claude API service is down,Claude,escalated,bug,outage,Claude API and Console · API FAQ,Escalation rule matched (Widespread outage or critical platform failure reported).
+Engage event site is down,HackerRank,escalated,bug,outage,HackerRank · Engage,Escalation rule matched (Widespread outage or critical platform failure reported).
+Visa checkout service is down,Visa,escalated,bug,outage,Visa · support,Escalation rule matched (Widespread outage or critical platform failure reported).
+Exchange rate calculator is down,Visa,escalated,bug,outage,Visa · support,Escalation rule matched (Widespread outage or critical platform failure reported).
+Claude desktop outage on every laptop,Claude,escalated,bug,outage,Claude · Connectors · Custom Connectors,Escalation rule matched (Widespread outage or critical platform failure reported).
+Test-taking service is down,HackerRank,escalated,bug,outage,HackerRank · Screen · Test Settings,Escalation rule matched (Widespread outage or critical platform failure reported).
+Bedrock requests failing in every region,Claude,escalated,bug,outage,Claude Code · Launch guides,Escalation rule matched (Widespread outage or critical platform failure reported).
+Certification site is down,HackerRank,escalated,bug,outage,HackerRank · SkillUp · Getting Started,Escalation rule matched (Widespread outage or critical platform failure reported).
+Card failed during a test,(blank),replied,product_issue,replied from the docs,support_md,Low-risk issue with strong documentation match (score 36.2) above threshold 10.0.
+Charge and test both failed,(blank),replied,product_issue,replied from the docs,support_md,Low-risk issue with strong documentation match (score 22.0) above threshold 10.0.
+Merchant asked about an invoice,(blank),replied,product_issue,replied from the docs,support_md,Low-risk issue with strong documentation match (score 39.5) above threshold 10.0.
+Nothing specific is working,(blank),replied,bug,replied from the docs,Claude API and Console · Using the Claude API and Console,Low-risk issue with strong documentation match (score 15.1) above threshold 10.0.
+Generic account help,(blank),replied,product_issue,replied from the docs,Account Settings · Manage Account,Low-risk issue with strong documentation match (score 19.6) above threshold 10.0.
+Ask for a status with no details,(blank),replied,product_issue,replied from the docs,Integrations · Applicant Tracking Systems · iCIMS,Low-risk issue with strong documentation match (score 16.0) above threshold 10.0.
+Page will not load,(blank),replied,product_issue,replied from the docs,General Help · Release Notes,Low-risk issue with strong documentation match (score 22.8) above threshold 10.0.
+Claude subscription paid by card,(blank),escalated,product_issue,answer mismatch,support,Retrieved document does not address the requested action.
+Test and card statement,(blank),replied,product_issue,replied from the docs,support_md,Low-risk issue with strong documentation match (score 30.0) above threshold 10.0.
+Password reset with no product named,(blank),replied,product_issue,replied from the docs,Account Settings · Manage Account,Low-risk issue with strong documentation match (score 35.7) above threshold 10.0.
+Update billing with no product named,(blank),replied,product_issue,replied from the docs,Claude · Account management,Low-risk issue with strong documentation match (score 27.2) above threshold 10.0.
+Expired interview link and a pending card,(blank),replied,product_issue,replied from the docs,Settings · User Account Settings and Preferences,Low-risk issue with strong documentation match (score 32.5) above threshold 10.0.
+Ask for setup steps with no product,(blank),replied,product_issue,replied from the docs,Integrations · Applicant Tracking Systems · Oracle Recruiting Cloud,Low-risk issue with strong documentation match (score 20.0) above threshold 10.0.
+Request a callback with no details,(blank),replied,product_issue,replied from the docs,support_md,Low-risk issue with strong documentation match (score 16.5) above threshold 10.0.
+Login looped with no product,(blank),replied,product_issue,replied from the docs,Claude API and Console · Using the Claude API and Console,Low-risk issue with strong documentation match (score 16.3) above threshold 10.0.
+Refund a frozen mock interview,HackerRank,replied,product_issue,replied from the docs,"HackerRank · Subscriptions, Payments, and Billing",Low-risk issue with strong documentation match (score 33.3) above threshold 10.0.
+Remove a departed employee,HackerRank,escalated,product_issue,answer mismatch,HackerRank · Screen · Managing Tests,Retrieved document does not address the requested action.
+Reschedule a missed company assessment,HackerRank,replied,product_issue,replied from the docs,HackerRank · Interviews · Manage Interviews,Low-risk issue with strong documentation match (score 33.0) above threshold 10.0.
+Missing apply tab,HackerRank,replied,bug,replied from the docs,HackerRank · Additional Resources · Job Search and Applications,Low-risk issue with strong documentation match (score 23.2) above threshold 10.0.
+Refund an Engage event fee,HackerRank,escalated,product_issue,answer mismatch,HackerRank · Engage,Retrieved document does not address the requested action.
+Remove an interviewer from the menu,HackerRank,replied,product_issue,replied from the docs,HackerRank · Library · Question Types · Projects Questions,Low-risk issue with strong documentation match (score 27.8) above threshold 10.0.
+Reschedule every interview next week,HackerRank,replied,product_issue,replied from the docs,HackerRank · Interviews · Manage Interviews,Low-risk issue with strong documentation match (score 35.1) above threshold 10.0.
+Refund a Claude team charge,Claude,replied,product_issue,replied from the docs,Claude · Pro and Max plans · General,Low-risk issue with strong documentation match (score 34.0) above threshold 10.0.
+Remove personal data from training,Claude,escalated,product_issue,answer mismatch,Claude · Account management,Retrieved document does not address the requested action.
+Block one user from a Claude project,Claude,replied,product_issue,replied from the docs,Claude · Team and Enterprise plans · Analytics and usage,Low-risk issue with strong documentation match (score 23.4) above threshold 10.0.
+Pause a single Claude seat,Claude,escalated,product_issue,answer mismatch,Claude · Team and Enterprise plans · Admin management,Retrieved document does not address the requested action.
+Extend the interview inactivity timeout,HackerRank,replied,bug,replied from the docs,HackerRank · Settings · Company Level Admin Settings,Low-risk issue with strong documentation match (score 36.8) above threshold 10.0.
+Move unused test credits,HackerRank,escalated,product_issue,answer mismatch,"HackerRank · Subscriptions, Payments, and Billing",Retrieved document does not address the requested action.
+Refund an unaccepted travelers cheque,Visa,escalated,product_issue,answer mismatch,Visa · travel_support,Retrieved document does not address the requested action.
+Remove an old merchant from the card account,Visa,escalated,product_issue,answer mismatch,Visa · support_md,Retrieved document does not address the requested action.
+Reschedule a filed card dispute,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 32.6) above threshold 10.0.
+Refund a minimum-spend difference,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 29.3) above threshold 10.0.
+Move a certificate to another email,HackerRank,replied,product_issue,replied from the docs,HackerRank · Integrations · Single Sign-On (SSO),Low-risk issue with strong documentation match (score 25.5) above threshold 10.0.
+Set up Zoom inside the test,HackerRank,replied,product_issue,replied from the docs,HackerRank · Interviews · Integrations,Low-risk issue with strong documentation match (score 33.6) above threshold 10.0.
+Ask Claude to crawl a private hiring site,Claude,replied,product_issue,replied from the docs,Claude · Privacy and legal,Low-risk issue with strong documentation match (score 30.3) above threshold 10.0.
+Weather in the US Virgin Islands,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 39.2) above threshold 10.0.
+Prime numbers script,None,replied,product_issue,replied from the docs,Library · Question Types · Programming Questions,Low-risk issue with strong documentation match (score 34.6) above threshold 10.0.
+Cricket score from last night,None,replied,product_issue,replied from the docs,Claude · Features and capabilities,Low-risk issue with strong documentation match (score 18.2) above threshold 10.0.
+Translate a grocery list,None,replied,product_issue,replied from the docs,Claude Mobile apps · Claude for iOS,Low-risk issue with strong documentation match (score 25.8) above threshold 10.0.
+College laptop recommendation,Claude,replied,product_issue,replied from the docs,Claude · Connectors · Custom Connectors,Low-risk issue with strong documentation match (score 16.7) above threshold 10.0.
+Plan a Lisbon trip,Visa,escalated,product_issue,answer mismatch,Visa · travel_support,Retrieved document does not address the requested action.
+Explain photosynthesis,None,escalated,product_issue,answer mismatch,Claude Code · Launch guides,Retrieved document does not address the requested action.
+Pantry pasta recipe,None,replied,product_issue,replied from the docs,Claude · Features and capabilities,Low-risk issue with strong documentation match (score 26.1) above threshold 10.0.
+Current time in Tokyo,None,replied,product_issue,replied from the docs,Claude · Features and capabilities,Low-risk issue with strong documentation match (score 17.9) above threshold 10.0.
+Novel recommendation,None,replied,product_issue,replied from the docs,Claude · Get started with Claude,Low-risk issue with strong documentation match (score 18.4) above threshold 10.0.
+Ounces in a liter,None,escalated,product_issue,ambiguous company,Screen · Test Settings,Escalation rule matched (Ambiguous organization field with modest retrieval confidence).
+Birthday message for a manager,HackerRank,replied,product_issue,replied from the docs,HackerRank · Settings · GDPR and NYC AI Laws,Low-risk issue with strong documentation match (score 18.9) above threshold 10.0.
+Size a 60-minute graduate test,HackerRank,replied,product_issue,replied from the docs,HackerRank · Prep Kits,Low-risk issue with strong documentation match (score 31.3) above threshold 10.0.
+Two recruiters editing one draft,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Getting Started,Low-risk issue with strong documentation match (score 31.4) above threshold 10.0.
+See who has not opened an invite,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Getting Started,Low-risk issue with strong documentation match (score 31.3) above threshold 10.0.
+Archive an old test,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Frequently Asked Questions,Low-risk issue with strong documentation match (score 31.3) above threshold 10.0.
+Allow a candidate retake,HackerRank,replied,product_issue,replied from the docs,HackerRank · Certifications,Low-risk issue with strong documentation match (score 34.1) above threshold 10.0.
+AI interview versus a live interview,HackerRank,replied,product_issue,replied from the docs,HackerRank · Integrations · Applicant Tracking Systems · Ashby,Low-risk issue with strong documentation match (score 31.3) above threshold 10.0.
+Add a system-design mock interview,HackerRank,replied,product_issue,replied from the docs,HackerRank · Mock Interviews,Low-risk issue with strong documentation match (score 48.0) above threshold 10.0.
+Turn off test notification emails,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Test Settings,Low-risk issue with strong documentation match (score 41.1) above threshold 10.0.
+Check the maintenance window,HackerRank,replied,product_issue,replied from the docs,HackerRank · General Help · Important Notifications,Low-risk issue with strong documentation match (score 38.6) above threshold 10.0.
+October 2025 release notes,HackerRank,replied,product_issue,replied from the docs,HackerRank · General Help · Release Notes,Low-risk issue with strong documentation match (score 44.3) above threshold 10.0.
+Contact HackerRank support,HackerRank,replied,product_issue,replied from the docs,HackerRank · Account Settings · Manage Account,Low-risk issue with strong documentation match (score 28.9) above threshold 10.0.
+Use community challenges without a work account,HackerRank,replied,product_issue,replied from the docs,HackerRank · Practice Coding Challenges,Low-risk issue with strong documentation match (score 35.1) above threshold 10.0.
+Search for jobs and save them,HackerRank,replied,product_issue,replied from the docs,HackerRank · Additional Resources · Job Search and Applications,Low-risk issue with strong documentation match (score 25.6) above threshold 10.0.
+Read the early-talent guide,HackerRank,replied,product_issue,replied from the docs,HackerRank · General Help · Evaluation Guides,Low-risk issue with strong documentation match (score 39.4) above threshold 10.0.
+Professional hire versus campus hiring,HackerRank,replied,product_issue,replied from the docs,HackerRank · General Help · Evaluation Guides,Low-risk issue with strong documentation match (score 37.2) above threshold 10.0.
+Read about HackerRank AI add-ons,HackerRank,replied,product_issue,replied from the docs,HackerRank · Integrations · Scheduling,Low-risk issue with strong documentation match (score 28.4) above threshold 10.0.
+Create a coding mock interview,HackerRank,replied,product_issue,replied from the docs,HackerRank · Mock Interviews,Low-risk issue with strong documentation match (score 35.8) above threshold 10.0.
+Find the glossary term for a published test,HackerRank,replied,product_issue,replied from the docs,HackerRank · Screen · Getting Started,Low-risk issue with strong documentation match (score 27.8) above threshold 10.0.
+Attach a challenge to the microsite,HackerRank,replied,product_issue,replied from the docs,HackerRank · Engage,Low-risk issue with strong documentation match (score 45.6) above threshold 10.0.
+Export candidate attempt data,HackerRank,replied,product_issue,replied from the docs,HackerRank · Settings · GDPR and NYC AI Laws,Low-risk issue with strong documentation match (score 32.9) above threshold 10.0.
+Add a standing Claude project instruction,Claude,replied,product_issue,replied from the docs,Claude · Features and capabilities,Low-risk issue with strong documentation match (score 31.5) above threshold 10.0.
+See approved Claude connectors,Claude,replied,product_issue,replied from the docs,Claude for Government,Low-risk issue with strong documentation match (score 27.4) above threshold 10.0.
+Move a user from Pro to team,Claude,replied,product_issue,replied from the docs,Claude · Team and Enterprise plans · Get started,Low-risk issue with strong documentation match (score 30.8) above threshold 10.0.
+File types in Claude desktop,Claude,replied,product_issue,replied from the docs,Claude · Features and capabilities,Low-risk issue with strong documentation match (score 27.4) above threshold 10.0.
+Read a Claude API error,Claude,replied,bug,replied from the docs,Claude API and Console · Using the Claude API and Console,Low-risk issue with strong documentation match (score 34.9) above threshold 10.0.
+Education setup besides an LTI key,Claude,replied,product_issue,replied from the docs,Claude for Education,Low-risk issue with strong documentation match (score 47.5) above threshold 10.0.
+Review privacy before data sharing,Claude,replied,product_issue,replied from the docs,Claude · Account management,Low-risk issue with strong documentation match (score 27.9) above threshold 10.0.
+Reinstall Claude for iOS,Claude,replied,product_issue,replied from the docs,Claude Mobile apps · Claude for iOS,Low-risk issue with strong documentation match (score 30.4) above threshold 10.0.
+What the Chrome extension can see,Claude,replied,product_issue,replied from the docs,Claude in Chrome,Low-risk issue with strong documentation match (score 43.9) above threshold 10.0.
+Request Claude for Government,Claude,replied,product_issue,replied from the docs,Claude · Account management,Low-risk issue with strong documentation match (score 44.1) above threshold 10.0.
+Look up a higher checkout fee,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 28.9) above threshold 10.0.
+Tell a traveler to decline conversion,Visa,escalated,product_issue,answer mismatch,Visa · travel_support,Retrieved document does not address the requested action.
+Report a lost travelers cheque,Visa,replied,product_issue,replied from the docs,Visa · travel_support,Low-risk issue with strong documentation match (score 35.4) above threshold 10.0.
+Two exchange rates on one receipt,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 28.4) above threshold 10.0.
+Start the checkout-fees contact form,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 60.8) above threshold 10.0.
+Fraud protection for online purchases,Visa,escalated,product_issue,risk or account policy,Visa · support,"Escalation rule matched (Sensitive, adversarial, account-specific, or policy-heavy request)."
+Where the minimum-purchase rule is written,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 43.1) above threshold 10.0.
+Find travel help in consumer support,Visa,replied,product_issue,replied from the docs,Visa · support_md,Low-risk issue with strong documentation match (score 41.2) above threshold 10.0.
+What merchants must protect,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 33.3) above threshold 10.0.
+Dispute a charge and ask for a receipt,Visa,replied,product_issue,replied from the docs,Visa · support,Low-risk issue with strong documentation match (score 42.8) above threshold 10.0.

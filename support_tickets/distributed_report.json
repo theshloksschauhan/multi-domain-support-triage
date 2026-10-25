@@ -1,0 +1,70 @@
+{
+  "environment": {
+    "python": "3.12.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+    "cpu_count": 8
+  },
+  "corpus_documents": 7957,
+  "query_count": 37,
+  "top_k": 5,
+  "min_overlap": 0.08,
+  "query_repeats": 5,
+  "full_scan": {
+    "build_seconds": 0.19735660000878852,
+    "warm_query_ms": {
+      "count": 185,
+      "mean_ms": 27.475644325258564,
+      "p50_ms": 27.617300002020784,
+      "p95_ms": 54.139339999528595,
+      "p99_ms": 84.7725199977867
+    }
+  },
+  "topologies": [
+    {
+      "shard_count": 1,
+      "documents": 7957,
+      "build_seconds": 6.079571399997803,
+      "db_bytes": 68627192,
+      "parity_mismatches": [],
+      "warm_query_ms": {
+        "count": 185,
+        "mean_ms": 52.43498270220526,
+        "p50_ms": 49.598099998547696,
+        "p95_ms": 90.71093999955333,
+        "p99_ms": 121.18451599439136
+      },
+      "unavailable_shard": ""
+    },
+    {
+      "shard_count": 2,
+      "documents": 7957,
+      "build_seconds": 5.990714800005662,
+      "db_bytes": 72682240,
+      "parity_mismatches": [],
+      "warm_query_ms": {
+        "count": 185,
+        "mean_ms": 33.8232221628533,
+        "p50_ms": 31.69220000563655,
+        "p95_ms": 64.58634000737219,
+        "p99_ms": 76.10283600050022
+      },
+      "unavailable_shard": "shard-1 health failed: shard-1 connection failed: [WinError 10061] No connection could be made because the target machine actively refused it"
+    },
+    {
+      "shard_count": 3,
+      "documents": 7957,
+      "build_seconds": 5.31131550000282,
+      "db_bytes": 77373104,
+      "parity_mismatches": [],
+      "warm_query_ms": {
+        "count": 185,
+        "mean_ms": 29.405559998358022,
+        "p50_ms": 26.970699997036718,
+        "p95_ms": 51.53498000290707,
+        "p99_ms": 77.82825200178193
+      },
+      "unavailable_shard": "shard-2 health failed: shard-2 connection failed: [WinError 10061] No connection could be made because the target machine actively refused it"
+    }
+  ]
+}

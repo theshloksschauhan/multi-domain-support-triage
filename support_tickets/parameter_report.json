@@ -1,0 +1,235 @@
+{
+  "default": {
+    "k1": 1.5,
+    "b": 0.75,
+    "min_score": 10.0,
+    "train_cost": 45,
+    "frozen_29_cost": 0
+  },
+  "selected": {
+    "k1": 1.5,
+    "b": 1.0,
+    "min_score": 8.0,
+    "train_cost": 42,
+    "frozen_29_cost": 6
+  },
+  "ship_selected": false,
+  "grid": [
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "min_score": 8.0,
+      "train_cost": 51
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "min_score": 10.0,
+      "train_cost": 51
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "min_score": 12.0,
+      "train_cost": 51
+    },
+    {
+      "k1": 1.2,
+      "b": 0.5,
+      "min_score": 15.0,
+      "train_cost": 51
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "min_score": 8.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "min_score": 10.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "min_score": 12.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.2,
+      "b": 0.75,
+      "min_score": 15.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.2,
+      "b": 1.0,
+      "min_score": 8.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.2,
+      "b": 1.0,
+      "min_score": 10.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.2,
+      "b": 1.0,
+      "min_score": 12.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.2,
+      "b": 1.0,
+      "min_score": 15.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "min_score": 8.0,
+      "train_cost": 51
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "min_score": 10.0,
+      "train_cost": 51
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "min_score": 12.0,
+      "train_cost": 51
+    },
+    {
+      "k1": 1.5,
+      "b": 0.5,
+      "min_score": 15.0,
+      "train_cost": 51
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "min_score": 8.0,
+      "train_cost": 45
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "min_score": 10.0,
+      "train_cost": 45
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "min_score": 12.0,
+      "train_cost": 45
+    },
+    {
+      "k1": 1.5,
+      "b": 0.75,
+      "min_score": 15.0,
+      "train_cost": 45
+    },
+    {
+      "k1": 1.5,
+      "b": 1.0,
+      "min_score": 8.0,
+      "train_cost": 42
+    },
+    {
+      "k1": 1.5,
+      "b": 1.0,
+      "min_score": 10.0,
+      "train_cost": 42
+    },
+    {
+      "k1": 1.5,
+      "b": 1.0,
+      "min_score": 12.0,
+      "train_cost": 42
+    },
+    {
+      "k1": 1.5,
+      "b": 1.0,
+      "min_score": 15.0,
+      "train_cost": 42
+    },
+    {
+      "k1": 1.8,
+      "b": 0.5,
+      "min_score": 8.0,
+      "train_cost": 47
+    },
+    {
+      "k1": 1.8,
+      "b": 0.5,
+      "min_score": 10.0,
+      "train_cost": 47
+    },
+    {
+      "k1": 1.8,
+      "b": 0.5,
+      "min_score": 12.0,
+      "train_cost": 47
+    },
+    {
+      "k1": 1.8,
+      "b": 0.5,
+      "min_score": 15.0,
+      "train_cost": 47
+    },
+    {
+      "k1": 1.8,
+      "b": 0.75,
+      "min_score": 8.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.8,
+      "b": 0.75,
+      "min_score": 10.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.8,
+      "b": 0.75,
+      "min_score": 12.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.8,
+      "b": 0.75,
+      "min_score": 15.0,
+      "train_cost": 46
+    },
+    {
+      "k1": 1.8,
+      "b": 1.0,
+      "min_score": 8.0,
+      "train_cost": 43
+    },
+    {
+      "k1": 1.8,
+      "b": 1.0,
+      "min_score": 10.0,
+      "train_cost": 43
+    },
+    {
+      "k1": 1.8,
+      "b": 1.0,
+      "min_score": 12.0,
+      "train_cost": 43
+    },
+    {
+      "k1": 1.8,
+      "b": 1.0,
+      "min_score": 15.0,
+      "train_cost": 43
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "tickets": 29,
+  "wrong_replies": 1,
+  "unnecessary_escalations": 0,
+  "reply_precision": 0.8888888888888888,
+  "escalation_precision": 1.0,
+  "cost": 5,
+  "note": "A linear model with these features can copy the action-overlap rule. It does not, by itself, recognize an off-topic question that shares two ordinary words with a document.",
+  "train_rows": 175,
+  "threshold": 0.18311814688948444,
+  "weights": {
+    "score": 1.7343563078294735,
+    "overlap": 0.7055874204924218,
+    "action_match": 1.7182229010597774,
+    "risk": 0.0,
+    "company_ambiguous": 0.40411518740840363
+  }
+}

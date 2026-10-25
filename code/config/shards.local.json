@@ -1,0 +1,25 @@
+{
+  "shards": [
+    {
+      "id": "shard-0",
+      "url": "http://127.0.0.1:8100",
+      "db": "var/shards/shard-0.db",
+      "replica_url": "http://127.0.0.1:8110",
+      "replica_db": "var/shards/shard-0-replica.db"
+    },
+    {
+      "id": "shard-1",
+      "url": "http://127.0.0.1:8101",
+      "db": "var/shards/shard-1.db",
+      "replica_url": "http://127.0.0.1:8111",
+      "replica_db": "var/shards/shard-1-replica.db"
+    },
+    {
+      "id": "shard-2",
+      "url": "http://127.0.0.1:8102",
+      "db": "var/shards/shard-2.db",
+      "replica_url": "http://127.0.0.1:8112",
+      "replica_db": "var/shards/shard-2-replica.db"
+    }
+  ]
+}

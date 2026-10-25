@@ -1,0 +1,26 @@
+{
+  "source": "Compared code/tests/fixtures/decision_labels.json test rows with DecisionModel.predict_status after the same gates as code/prediction/train_decision.py _decide. Features came from ticket_features. The score passed to the model was divided by MIN_SCORE (10) through model_features.",
+  "tickets": 29,
+  "disagreements": [
+    {
+      "subject": "Help needed",
+      "issue": "it’s not working, help",
+      "company_cell": "None",
+      "label": "escalated",
+      "predicted": "replied",
+      "request_type": "bug",
+      "risk_hit": false,
+      "top_score": 13.108952257023093,
+      "features": {
+        "score": 13.108952257023093,
+        "overlap": 0.6,
+        "action_match": 1.0,
+        "risk": 0.0,
+        "company_ambiguous": 0.0
+      },
+      "probability": 0.33675054853210107,
+      "threshold": 0.18311814688948444,
+      "why": "rule_status escalates when the company normalizes to None and the score is greater than 0 and less than 15. company_is_ambiguous stays 0 because the text does not match two organizations in COMPANY_KEYWORDS. action_match is 1 and the probability is above the training-reply threshold, so the model replies."
+    }
+  ]
+}

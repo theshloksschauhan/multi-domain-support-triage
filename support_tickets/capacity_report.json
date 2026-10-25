@@ -1,0 +1,22 @@
+﻿{
+  "limit_ms": 80.0,
+  "feasible": true,
+  "chosen_partitions": 2,
+  "chosen_p95_ms": 64.58634000737219,
+  "objective": "minimize partition count",
+  "constraint": "p95 <= 80ms",
+  "measurements": [
+    {
+      "shard_count": 1,
+      "p95_ms": 90.71093999955333
+    },
+    {
+      "shard_count": 2,
+      "p95_ms": 64.58634000737219
+    },
+    {
+      "shard_count": 3,
+      "p95_ms": 51.53498000290707
+    }
+  ]
+}

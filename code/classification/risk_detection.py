@@ -55,7 +55,10 @@ HIGH_RISK_PHRASES: Tuple[str, ...] = (
     "internal documents",
     "logique exacte",
     "règles internes",
-    "règles internes",
+    "lost access",
+    "not the admin",
+    "stole my identity",
+    "someone has my account",
 )
 
 # Single tokens / short words: whole-word match (avoids "fraud" matching inside "fraude")
@@ -85,7 +88,7 @@ def _normalize(text: str) -> str:
 
 
 def _phrase_hit(normalized: str, phrase: str) -> bool:
-    return phrase in normalized
+    return re.search(rf"\b{re.escape(phrase)}\b", normalized) is not None
 
 
 def risk_escalate(issue: str, subject: str) -> Tuple[bool, str]:
