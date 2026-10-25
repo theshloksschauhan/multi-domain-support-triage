@@ -1,5 +1,7 @@
 # Multi-domain support triage
 
+[![CI](https://github.com/theshloksschauhan/multi-domain-support-triage/actions/workflows/ci.yml/badge.svg)](https://github.com/theshloksschauhan/multi-domain-support-triage/actions/workflows/ci.yml)
+
 This program reads a support ticket and either replies with sentences from local help documents or escalates the ticket to a person. It covers HackerRank, Claude, and Visa. It fails closed: `decision_cost` in `code/prediction/model.py` charges 5 for a wrong reply and 1 for an unnecessary escalation, and distributed search raises `RetrievalUnavailable` instead of answering from a partial index (`docs/adr/004-fail-closed.md`).
 
 The system runs on one machine. The measured corpus is 7,957 chunks (`support_tickets/distributed_report.json`, field `corpus_documents`). Distributed mode uses 3 partitions, with 1 replica each (`code/config/shards.local.json`).
