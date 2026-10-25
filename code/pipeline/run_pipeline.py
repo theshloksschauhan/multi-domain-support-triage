@@ -46,9 +46,9 @@ def _source_label(top_doc: Optional[Document], corpus_root) -> str:
     if top_doc is None:
         return ""
     try:
-        return str(top_doc.path.relative_to(corpus_root))
+        return top_doc.path.relative_to(corpus_root).as_posix()
     except ValueError:
-        return str(top_doc.path)
+        return top_doc.path.as_posix()
 
 
 def run_pipeline(config: RuntimeConfig, logger: logging.Logger) -> None:

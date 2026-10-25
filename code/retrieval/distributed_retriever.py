@@ -17,7 +17,6 @@ from pathlib import Path
 from typing import List, Optional, Sequence, Tuple
 
 from data_loader.corpus_loader import Document
-from retrieval.inverted_index import GlobalBm25Stats
 from retrieval.shard_client import ShardClient, ShardClientError
 from utils.text_cleaning import tokenize
 
@@ -223,10 +222,8 @@ class DistributedRetriever:
 
 
 def _document_from_hit(hit: dict) -> Document:
-    from utils.text_cleaning import tokenize as tokenize_text
-
     text = str(hit.get("text", ""))
-    tokens = tokenize_text(text)
+    tokens = tokenize(text)
     return Document(
         doc_id=str(hit["doc_id"]),
         company=str(hit.get("company", "")),

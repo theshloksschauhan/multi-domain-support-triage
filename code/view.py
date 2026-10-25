@@ -10,6 +10,7 @@ pipeline runs. It writes under var/ and does not replace support_tickets/output.
 
 import csv
 import html
+import logging
 import sys
 from dataclasses import replace
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -218,7 +219,7 @@ def prepare() -> bytes:
     log_path = root / "var" / "viewer-log.txt"
     defaults = replace(default_config(), output_path=output, log_path=log_path)
     setup_logging(log_path)
-    run_pipeline(defaults, __import__("logging").getLogger("viewer"))
+    run_pipeline(defaults, logging.getLogger("viewer"))
     tickets = load_tickets(defaults.input_path)
     rows = _load_rows(output)
     if len(tickets) != len(rows):

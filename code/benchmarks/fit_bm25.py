@@ -18,7 +18,7 @@ if str(CODE_ROOT) not in sys.path:
 from classification.product_area import infer_company
 from classification.request_type import classify_request_type
 from classification.risk_detection import risk_escalate
-from config.settings import MAX_SENTENCES, MIN_OVERLAP, MIN_SCORE, TOP_K, repo_root
+from config.settings import MAX_SENTENCES, MIN_OVERLAP, TOP_K, repo_root
 from data_loader.corpus_loader import load_corpus
 from data_loader.ticket_loader import load_tickets
 from prediction.build_labels import label_path

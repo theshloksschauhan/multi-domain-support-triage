@@ -42,7 +42,7 @@ def load_corpus(corpus_root: Path) -> List[Document]:
             tokens = tokenize(chunk)
             if not tokens:
                 continue
-            doc_id = f"{path.relative_to(corpus_root)}::chunk{idx}"
+            doc_id = f"{path.relative_to(corpus_root).as_posix()}::chunk{idx}"
             docs.append(
                 Document(
                     doc_id=doc_id,

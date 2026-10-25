@@ -1,4 +1,5 @@
 import csv
+import json
 import socket
 import sys
 import tempfile
@@ -60,12 +61,12 @@ class ShardProcessTests(unittest.TestCase):
                     }
                 )
             config_path.write_text(
-                __import__("json").dumps({"shards": shards}),
+                json.dumps({"shards": shards}),
                 encoding="utf-8",
             )
             cluster.start_cluster(config_path, pid_file, root, timeout=15.0)
             report = cluster.index_cluster(config_path, root / "corpus", timeout=15.0)
-            self.assertEqual(health_code := cluster.health_cluster(config_path, 5.0), 0)
+            self.assertEqual(cluster.health_cluster(config_path, 5.0), 0)
             docs = load_corpus(root / "corpus")
             self.assertEqual(report["documents"], len(docs))
             reference = BM25Index(docs)
