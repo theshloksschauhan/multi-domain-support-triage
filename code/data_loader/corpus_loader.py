@@ -32,10 +32,13 @@ def load_corpus(corpus_root: Path) -> List[Document]:
         except OSError:
             continue
         fm, body = split_front_matter(raw)
-        company = infer_company_from_path(path)
+        # Classify on the path inside the corpus only, so a parent folder named
+        # "claude", "visa" or "hackerrank" cannot mislabel every document.
+        corpus_path = path.relative_to(corpus_root)
+        company = infer_company_from_path(corpus_path)
         crumbs = extract_breadcrumbs(fm)
         product_area = (
-            " · ".join(crumbs) if crumbs else infer_product_area_from_path(path)
+            " · ".join(crumbs) if crumbs else infer_product_area_from_path(corpus_path)
         )
         cleaned = clean_markdown(body)
         for idx, chunk in enumerate(chunk_text(cleaned)):
