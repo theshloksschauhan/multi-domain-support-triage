@@ -40,7 +40,7 @@ The system runs on one machine. The measured corpus is 7,957 chunks (`support_ti
 - Cost-based capacity selection chooses 2 partitions. Measured query p95 is 90.71093999955333 ms, 64.58634000737219 ms, and 51.53498000290707 ms at 1, 2, and 3 partitions. The limit is 80 ms (`support_tickets/capacity_report.json`).
 - Term frequency ships. On the real corpus its query p95 is 100.342 ms and its database is 22,818,816 bytes. Normalized postings are 420.964 ms and 109,817,856 bytes (`support_tickets/storage_report.json`).
 - After shard-0's primary was killed, the same query took 3.077 seconds. The deadline was 1.0 second. Six database files totaled 154,746,208 bytes (`docs/benchmarks/replica-measurement.txt`).
-- `python code/run_tests.py` reported `Ran 53 tests` and `OK` on Python 3.12.4.
+- `python code/run_tests.py` reported `Ran 54 tests` and `OK` on Python 3.12.4.
 - Posting scores match `BM25Index` within `1e-12` (`tests.test_posting_index.PostingIndexTests.test_scores_match_bm25`). The distributed benchmark recorded 0 parity mismatches (`support_tickets/distributed_report.json`).
 
 ## Architecture
@@ -87,7 +87,7 @@ From the repository root:
 python code/run_tests.py
 ```
 
-That command reported `Ran 53 tests` and `OK`.
+That command reported `Ran 54 tests` and `OK`.
 
 Local mode. This command writes `var/local-output.csv`. It does not replace `support_tickets/output.csv`. The code default for `--output` is `support_tickets/output.csv` (`default_config` in `code/config/settings.py`).
 
@@ -429,7 +429,7 @@ The repository does not contain a measured bytes-per-token slope beyond those po
 
 Command: `python code/run_tests.py`.
 
-`run_tests.py` discovers `*test*.py` under `code/tests` with `unittest`. The run on Python 3.12.4 reported `Ran 53 tests` and `OK` in 42.073 seconds.
+`run_tests.py` discovers `*test*.py` under `code/tests` with `unittest`. The run on Python 3.12.4 reported `Ran 54 tests` and `OK` in about 30 seconds.
 
 | File | What it covers |
 | --- | --- |
@@ -520,7 +520,7 @@ Percentiles in `distributed_report.json` use `percentile` in `code/benchmarks/be
 | Default parameter frozen cost | 0 | points | Same triple on the 29 test labels | `support_tickets/parameter_report.json` |
 | Selected parameter train cost | 42 | points | k1 1.5, b 1.0, cutoff 8 | `support_tickets/parameter_report.json` |
 | Selected parameter frozen cost | 6 | points | Same triple | `support_tickets/parameter_report.json` |
-| Tests | 53 | tests | `python code/run_tests.py`, result OK | this run, Python 3.12.4 |
+| Tests | 54 | tests | `python code/run_tests.py`, result OK | this run, Python 3.12.4 |
 | Local pipeline wall time | 5.13 | seconds | 29 tickets, local mode, log line `Completed in 5.13 seconds` | `var/local-log.txt` |
 | Distributed pipeline wall time | 1.41 | seconds | 29 tickets against an already built cluster | `var/distributed-log.txt` |
 | Corpus-test latency guard | 200 | ms | Fail if that test's query p95 is greater than or equal to 0.200 s | `code/tests/test_inverted_index.py` |
@@ -635,7 +635,7 @@ The shard cluster, inverted index, replicas, logistic model, benchmark scripts, 
 | Two partitions is the smallest measured count at or below 80 ms | `solve` in `capacity.py` | `support_tickets/capacity_report.json` |
 | Tuned BM25 settings were rejected | Frozen cost 6 versus 0. `ship_selected` false | `support_tickets/parameter_report.json` |
 | Term frequency is the shipped layout | `shipped_layout` | `support_tickets/storage_report.json` |
-| The test suite passed with 53 tests | `Ran 53 tests` and `OK` | `python code/run_tests.py` on Python 3.12.4 |
+| The test suite passed with 54 tests | `Ran 54 tests` and `OK` | `python code/run_tests.py` on Python 3.12.4 |
 | The index and model are not in the May 2026 commits | `git log` and `git status` | git history |
 
 ## Skills and keyword map
@@ -652,7 +652,7 @@ The shard cluster, inverted index, replicas, logistic model, benchmark scripts, 
 | Relational databases | Strong | SQLite schema, WAL, staging tables, atomic commit |
 | Machine learning | Partial | Logistic regression, 5 features, 175 training rows, frozen 29. No model comparison and no third-party trainer. |
 | Optimization | Partial | Cost-weighted grid over 36 BM25 triples, and cost-based selection over 3 measured p95 values. No solver library. |
-| Testing | Strong | 53 unittest methods, parity checks, fail-closed checks, a 200 ms guard |
+| Testing | Strong | 54 unittest methods, parity checks, fail-closed checks, a 200 ms guard |
 | Python | Strong | The whole program |
 | Performance benchmarking | Strong | `benchmark_distributed.py`, `benchmark_storage.py`, `measure_replicas.py`, saved JSON |
 | Object-oriented design | Partial | Classes such as `BM25Index`, `DecisionModel`, `ShardStore`, `Document`, and `Ticket`. No separate design document. |
@@ -683,7 +683,7 @@ Storage and performance
 
 Testing and quality
 
-- Passed 53 unittest methods, including replica failover, fail-closed search, posting scores within 1e-12 of BM25, and a 200 ms query-p95 guard on the full corpus.
+- Passed 54 unittest methods, including replica failover, fail-closed search, posting scores within 1e-12 of BM25, and a 200 ms query-p95 guard on the full corpus.
 
 The two p95 figures in the capacity bullet are rounded to 3 decimals from `90.71093999955333`, `64.58634000737219`, and `51.53498000290707`. The exact values are in the metrics table.
 
